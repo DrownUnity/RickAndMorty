@@ -1,0 +1,34 @@
+.btn{
+    transition: 0.3s;
+    border: none;
+    background-color: transparent;
+    cursor: url(../IMG/Portal\ Gun\ -\ Pointer.png),auto;
+    color: rgb(109, 238, 35);
+    background-color: white;
+    border-radius: 1rem;
+    width: 4rem;
+    padding: 0.5rem;
+    font-weight: 10px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0px 1px 1px rgba(0, 0, 0, 0.244);
+}
+
+.input{
+    border: none;
+    border-left: solid 3px white;
+    border-bottom: solid 3px white;
+    background-color: transparent;
+    color: white;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}

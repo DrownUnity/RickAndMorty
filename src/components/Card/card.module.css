@@ -1,0 +1,70 @@
+.cards{
+    background-color: rgb(111, 238, 35);
+    width: 15rem;
+    height: 22rem;
+    border-radius: 2rem;
+    color: white;
+    padding: 0.5rem;
+    transition: 1s;
+}
+
+.cards:hover{
+    transform: perspective(150px) rotateY(-1deg);
+}
+
+.image{
+    width: 12rem;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+}
+
+.text{
+    font-size: 12px;
+    
+}
+
+.btn{
+    display: flex;
+    position: absolute;
+    border-top-left-radius: 1rem;
+    background-color:white;
+    border: none;
+    color: white;
+    transition: all 1s;
+}
+
+.btn:hover{
+    transform: scale(2);
+    border-bottom-right-radius:3rem;
+    color: rgb(111, 238, 35);
+    cursor: url(../IMG/Portal\ Gun\ -\ Pointer.png),auto;
+}
+
+.nombre{
+    margin: auto;
+    color: rgb(111, 238, 35);
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    cursor: url(../IMG/Portal\ Gun\ -\ Pointer.png),auto;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.nombre:hover{
+    transform: scale(1.02);
+}
+
+.fav{
+    display: flex;
+    justify-content: right;
+}
+
+.favbtn{
+    background-color: transparent;
+    border: none;
+}

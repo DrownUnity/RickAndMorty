@@ -1,0 +1,26 @@
+.section{
+    background-image: url(../IMG/Morty.gif);
+    height: 91vh;
+    background-repeat: no-repeat;
+    background-position: 70% ;
+    background-position-y: bottom;
+    color:  rgb(111, 238, 35);
+}
+
+.article{
+    font-size: 5rem;
+    text-align: left;
+    line-height: 1rem;
+    margin-left: 1rem;
+    animation: desplazamiento 2s forwards;
+}
+
+@keyframes desplazamiento {
+    0% {
+      transform: translateX(200px);
+    }
+    
+    100% {
+      transform: translateX(0);
+    }
+  }

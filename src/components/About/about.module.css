@@ -1,0 +1,38 @@
+.name{
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    background-color:  rgb(111, 238, 35);
+    width: 13rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 93.5vh;
+    flex-direction: column;
+    color: rgb(111, 238, 35);
+    margin-left: 2rem;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-bottom: 5px rgb(111, 238, 35) solid;
+}
+
+a{
+    text-decoration: none;
+    transition: 1s;
+}
+

@@ -1,0 +1,44 @@
+.section{
+    background-image: url(../IMG/portal-rick-and-morty.gif);
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    background-position: 48% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.btn{
+    cursor: url(../IMG/Portal\ Gun\ -\ Pointer.png),auto;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(111, 238, 35);
+    color: white;
+    padding: 0.5rem;
+    transition: 0.8s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: white;
+    color:rgb(111, 238, 35) ;
+}
