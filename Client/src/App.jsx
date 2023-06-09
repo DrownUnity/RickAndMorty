@@ -15,16 +15,6 @@ function App() {
 
   const [characters, setCharacters] = useState([]);
 
-   /* const onSearch = id => {
-      axios (`http://localhost:3001/rickandmorty/character/${id}`).then(({ data }) => {
-      if (data.name) {
-         setCharacters((characters) => [...characters, data]);
-      } else {
-         window.alert('¡No hay personajes con este ID!');
-      }
-   });
-   }; */
-
    async function onSearch(id){
       const URL = "http://localhost:3001/rickandmorty/character/";
 

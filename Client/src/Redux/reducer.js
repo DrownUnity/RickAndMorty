@@ -2,7 +2,8 @@ import { ADD_FAV, FILTER, ORDER, REMOVE_FAV } from "./action";
 
 const initialState = {
     myFavorites: [],
-    allCharacters: []
+    allCharacters: [],
+    errors: false,
 }
 
 const reducer = (state = initialState, action) =>{
@@ -14,11 +15,17 @@ const reducer = (state = initialState, action) =>{
                 allCharacters: action.payload,
             }
         }
-        case REMOVE_FAV:{
-
+        case" ERROR":{
             return{
+                ...state,
+                errors: action.payload,
+            }
+        }
+        case REMOVE_FAV:{
+            return { 
                 ...state, 
                 myFavorites: action.payload,
+                allCharacters: action.payload
             }
         }
         case FILTER:{

@@ -5,7 +5,7 @@ export default function Cards(props) {
     const {characters, onClose} = props;
 
     const listItems = characters.map((person) => (
-        <li>
+        <li key={person.id}>
           <Card
             id={person.id}
             name={person.name}
